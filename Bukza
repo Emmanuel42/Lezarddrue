@@ -1,0 +1,167 @@
+Documentation technique
+
+BUKZA
+
+SOMMAIRE : 
+
+I) Installation
+
+ A) Obtenir Bukza
+ B) Règlages
+
+
+II) Utilisation
+
+A) Création des éléments
+
+ 1) Création des Widgets
+ 2) Création des Ressources
+ 3) Création des Groupes de ressources
+
+B) Gestion des réservatons
+
+
+
+
+
+1) Installation
+
+
+A) Obtenir Bukza
+
+Voilà les différentes étapes pour obtenir Bukza :
+
+ - Télécharger le plugin Bukza sur cette page : https://fr.wordpress.org/plugins/bukza/
+ - Dézipper le fichier obtenu et placer le dossier "bukza" dans le dossier "/wp-content/plugins/" de votre wordpress.
+ - Activer le plugin Bukza dans le menu "Extensions" de Wordpress.
+ - Ouvrir la page Bukza dans le menu "admin" de Wordpress.
+ - Se connecter ou s'enregistrer sur le site de Bukza : https://public.bukza.com/#/signin?l=en (cf photo).
+ - Suivez les différentes étapes d'installation.
+
+
+B) Règlages
+
+Avant de commencer à utiliser le plugin, il faut effectuer quelques règlages préalables : 
+
+ - Allez sur l'onglet "Bukza" dans le menu Wordpress.
+
+ - Allez dans "configuration" en haut à droite de l'écran.
+
+ - Cliquez ensuite sur "parameters". Une fenêtre s'ouvre avec 3 onglets : Profile, Reservations settings, Payments settings.
+
+ - Sur l'onglet "Profile", entrez votre nom, votre entreprise/association, votre monnaie et votre fuseau horaire. Renseignez aussi le champs "Correspondence email" pour spécifier l'adresse email que vous souhaitez utiliser pour recevoir des notifications. Inutile de le remplir s'il s'agit de la même adresse que celle utilisée pour votre inscription.
+ - L'option "Configure message" permet de modifier l'aspect et le contenu de votre message de confirmation de réservation.
+ - Le bouton "Change" permet de passer à une version payante de Bukza. Seule la formule à 34$/mois (environ 30€) permet d'accepter les paiements par cartes et d'envoyer des mails de notifications.
+
+ - Sur l'onglet "Reservations settings": dans la section "Prompted contact information" vous pouvez choisir (cocher) les options qui s'afficheront dans le formulaire de contact (4 champs disponibles : Nom, Prénom, Téléphone, E-mail). Vous pouvez aussi spécifier vos conditions de ventes que le client devra accepter pour pouvoir valider sa réservation.
+
+ - Sur l'onglet "Payments settings" : vous pouvez préciser le montant de l'acompte avec l'option "Deposit". En cochant la case "Auto-confirmation of free orders", vous validerez automatiquement les réservations qui ne nécessitent pas d'acompte. En cochant la case "Accept other payment types", vous pouvez accepter d'autres moyens de paiement. Les réservations effectuées avec ces moyens de paiement peuvent aussi être validées automatiquement. Enfin, les commandes en attentes peuvent être supprimées au bout d'un certain temps en cochant la case "Reject pending orders automatically after..." et en précisant la date limite.
+
+Une fois tous les règlages effectués, n'oubliez pas de sauvegarder les changements en cliquant sur le bouton SAVE en bas à droite de la fênetre.
+
+Vous pouvez également créer des promotions, des bons d'achat, des cartes de réduction et des cartes-cadeaux dans la section Promotion. 
+
+
+
+
+2) Utilisation de Bukza
+
+
+Ce plugin permet de créer 3 types d'éléments :
+
+ - Les widgets : utilisés pour afficher le formulaire de réservation sur le site Web. Ils spécifient un ensemble de ressources affichées et de paramètres visuels.
+
+ - Les ressources : les éléments que le client réservera. Par exemple: les jeux, le matériel audio etc.
+
+ - Les groupes : ils aident à organiser les ressources en groupes du catalogue. Il est également possible d'ajouter des sous-groupes imbriqués créant une hiérarchie à plusieurs niveaux.
+
+
+A) Création des éléments
+
+
+1) Création d'un Widget
+
+ - Il faut d'abord commencer par créer un Widget qui servira de "cadre" pour afficher les produits (ressources) : cliquez sur "bukza" dans le menu du tableau de bord de Wordpress. Cliquez ensuite sur "Configuration" puis sur "+ Create Widget".
+
+- On va ensuite définir les caractéristiques de notre Widget : sur l'onglet "Content", il faut spécifier le nom du produit et la devise utilisée. Cliquez ensuite sur l'onglet "Text" pour définir le langage utilisé. Si la traduction est incorrecte, il est possible de la modifier dans le champs "Custom text". Ensuite, cliquez sur l'onglet "Appearance". Vous pouvez choisir d'afficher les promotions (en cochant la case "Show promote section"), la couleur de fond du wiget (Theme). La case à cocher "Open calendar automatically" permet d'activer l’ouverture automatique du calendrier lorsque le client crée une nouvelle réservation. Enfin, en activant la case "Use custom css-styles", vous pouvez utiliser votre propre code CSS pour personnaliser le widget. 
+
+ - Quand vous avez terminé vos règlages, cliquez sur le bouton SAVE pour enregistrer votre widget. Un nouvel onglet "Code" s'affiche à côté de l'onglet "Appearance". Cliquez sur cet onglet et copier la ligne de code tout en haut. Collez ce shortcode dans la page où vous voulez placer votre widget.
+
+Votre widget est installé, il faut maitenant le  remplir avec les produits (ressources) que vous souhaitez afficher pour la location.
+
+
+
+2) Création d'une ressource (produit)
+
+Cliquez sur "bukza" dans le menu du tabkeau de bord de Wordpress. Cliquez ensuite sur "Configuration" puis sur "+ Create Resource".
+
+Vous avez le choix entre 3 modèles possibles : choisissez celui qui vous convient le mieux. Vous pourrez modifier n'importe quel paramètre ultérieurement.
+Dans cette documentation, nous avons choisi le modèle "For Studying".
+
+Il faut ensuite, choisir le modèle qui convient le mieux à ce que l'on souhaite faire. Nous avons choisi le modèle "Daily" qui permet de gérer la location de produit par jour, car cela nous paraissait le plus adapté.
+
+Après avoir cliqué sur "Create from template", vous arrivez sur la page de création de la ressource.
+
+Cliquez sur le cadre "Daily" pour configurer la ressource : indiquez le nom de la ressource, sa quantité disponible, placer l'image du produit, indiquer un titre, le prix, la description du produit. Toutes ces données sont facultatives excepté le nom de la ressource. 
+Vous pouvez aussi sélectionner 3 options pour la réservation :
+ - Case à cocher "Block time between reservations" : permet de bloquer une plage horaire entre les réservations.
+ - Case à cocher "Show only dates (without time)" : affiche la journée entière (sans les tranches horaires).
+ - Case à cocher "Include whole end day" : Lorsque le jour de fin de location est sélectionné, le point de location 0:00 du jour suivant sera inclus. Dans ce cas, le client verra quand même la date du jour précédent.
+
+Si vous avez déjà des ressources crées, elles s'afficheront aussi sous forme de liste avec une case à cocher devant chacune d'elles. Vous pouvez ainsi relier les ressources entre elles. Les réservations sur les ressources que vous aurez coché bloqueront automatiquement la reservation sur cette ressource.
+
+Lorsque vous avez terminé la création de votre ressource, cliquez sur le bouton SAVE.
+
+Vous retournez alors sur la page de création de la ressource. Il faut maintenant cliquez sur la case suivante intitulée par défaut "$1000/day". Vous arrivez sur une page avec 3 onglets qui va définir les conditions de location et règles de paiement. Dans "Parameters", il faut obligatoirement renseigné le nom c'est-à-dire le prix de la location par jour (exemple : pour un jeu on indiquera "5€/jour"). Dans l'onglet "Working Time", vous pouvez règlez la période de location. Dans l'onglet "Rental intervals", vous pouvez créer des intervalles de location si nécessaire. Enregistrer ensuite avec le bouton SAVE.
+
+Vous retournez ensuite sur la page de création de la ressource. Il est possible d'ajouter d'autres règles de paiement. Il est aussi possible de supprimer une règle en cliquant dessus et en choisissant "DELETE RULE" puis sur "YES".
+
+Cliquez ensuite sur "Price option" pour modifier le prix à afficher. Cliquez sur SAVE pour sauvegarder et retourner sur la page de création.
+
+Cliquez ensuite sur la case à droite de "Price option". Le prix que vous avez indiqué dans "Price option" doit s'afficher. Si c'est bien le cas, cliquez sur SAVE.
+
+De retour sur la page de création, cliquez sur le bouton CREATE en haut de la page. 
+Faites autant de ressources que vous avez de produits. 
+
+Allez dans le menu "Configuration" de Bukza. Vos ressources apparaissent dans la catégorie "Resources".
+
+Cliquez ensuite sur le widget que vous avez créée. Dans la section "Add resource to widget", vous trouverez toutes les ressources que vous avez faites. Pour ajouter les ressources au widget, il suffit de cliquer sur les "+" à côté du nom de la ressource. Les ressources choisies vont se déplacer vers la section "Items shown". Dans la fenêtre de droite, vous avez un aperçu du rendu sur votre page. Quand vous avez déplacé toutes vos ressources, cliquez sur le bouton SAVE en bas de page.
+
+Aller voir le résultat sur la page où vous avez collé le shortcode.
+
+
+3) Création de groupe de ressource
+
+Le groupe de ressource permet de regrouper plusieurs ressource par thème, par familles de produits. Cette fonction est particulièrement utile s'il y a beaucoup de produits. 
+Cliquez sur "+ Create resource group". Donnez un nom à votre groupe de ressource, choisissez une image. Déplacez ensuite les ressources que vous souhaitez regrouper grâce au signe "+" associé à chaque ressource.
+
+
+
+B) Gestion des réservations
+
+
+Dans le menu Wordpress, allez sur "Bukza".
+
+Vous arrivez sur une page qui comprends plusieurs tables :
+
+ - La table "Orders" : Montre les réservations faites.
+ - La table "Pending" : Montre les réservations en attente.
+ - La table "Confirmed" : Montre les réservations confirmées.
+ - La table "Today visits" : Montre les réservations faites aujourd'hui.
+
+Vous pouvez rajouter des tables avec le bouton "+ Create table" pour surveiller vos réservations par famille de produits. Par exemple, une page "Jeux" pour voir uniquement les réservations sur les jeux.
+
+Dans les tables, les réservations peuvent être triées par filtres avec l'icône "filter" en haut à droite de la page. 
+
+En cliquant sur l'icône "Paramètre", vous pouvez renommer la table et choisir les informations qui apparaissent dans la table. Pour des réservations, il faut utiliser les champs qui se trouvent dans la section "Add columns for reservation fields". Cliquez sur le "+" à côté du nom du champs pour l'ajouter à la table. Pour supprimer un champs dans la table, il faut cliquer sur la croix à côté du nom du champs.
+ 
+Vous pouvez aussi supprimer la table en cliquant sur "DELETE TABLE".
+ 
+Toujours dans "Paramètres", il est possible d'exporter la table vers un fichier excel en cliquant sur "EXPORT TO EXCEL".
+
+Sauvegarder vos modifications avec le bouton SAVE.
+
+
+
+
+
