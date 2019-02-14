@@ -1,0 +1,41 @@
+
+Déploiement du site sur un vps : 
+
+- Se connecter à Vista Panel : http://cpanel.byethost.com/index.php
+
+- Entrer votre nom d'utilisateur : b16_23448333
+
+- Entrer votre mot de passe : lambda@tempcloud.info
+
+- Avant de valider en cliquant sur le bouton "Log in", vous pouvez choisir de modifier la langue utilisée par défaut.
+
+- Après avoir validé, vous pourrez accéder à votre panneau d'affichage.
+
+- Dans la rubrique "Préférences", cliquez sur "guide de démarrage".
+
+- Pour installer un CMS Wordpress, allez jusqu'au paragraphe suivant : "Je souhaite installer un forum, CMS ou la galerie de site PHP".
+
+- Suivez les instructions des différentes étapes.
+
+
+RAPPEL DES IDENTIFIANTS : 
+
+Sur Vista Panel :
+
+Nom d'utilisateur (login) : b16_23448333
+Mot de passe : lambda@tempcloud.info
+
+
+Sur FTP :
+
+FTP Server : ftpupload.net
+FTP Nom d'utilisateur (login) : b16_23448333
+FTP Mot de passe : lambda@tempcloud.info
+ 
+
+Sur MySQL :
+
+MySQL Nom de la base de données : Lezarddrue
+MySQL nom d'utilisateur : b16_23448333
+MySQL Mot de passe : lambda@tempcloud.info
+MySQL Server : sql213.byethost.com
