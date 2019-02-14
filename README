@@ -1,0 +1,14 @@
+README
+
+# Lezarddrue est un projet de site web pour l'association Lez'ard d'rue.
+
+Pour obtenir le site : voir le document "Déploiement" pour avoir le site sur le vps. 
+
+Vous pouvez aussi télécharger le site ici : https://github.com/Emmanuel42/Lezarddrue.git
+Chargez le dossier obtenu dans votre vps ou sur votre hébergeur via FTP (voir le document "Déploiement" pour plus d'informations).
+
+
+Pour connaitre le fonctionnement du plugin Bukza, veuillez vous référer au document "Bukza".
+
+
+Pour le plugin Google Agenda, voir le document "Google Agenda"

@@ -1,0 +1,16 @@
+GOOGLE AGENDA PLUGIN
+
+- Crée un nouveau calendrier dans Google Agenda
+- Installer le plugin : https://wordpress.org/plugins/google-calendar-events/
+- Déposer le dossier téléchargé dans votre worpress sous 'wp-content' -> 'plugin'
+- Activer sur wordpress le plugin puis aller dans les settings du plugin
+- Trouver la google API Key, sous google taper 'google console developper' 
+- Crée un nouvel agenda sous wordpress, dans les paramètres 'google calendar' insérer le Calendar ID ce trouvant dans les paramètres de votre
+Google Agenda.
+- Prenez le shortcode de votre calendrier wordpress et insérez-le dans une page wordpress
+
+
+TUTORIEL
+
+-https://www.youtube.com/watch?v=ywolbDP03lk&t=81s
+
